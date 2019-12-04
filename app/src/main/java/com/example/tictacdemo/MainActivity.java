@@ -36,7 +36,9 @@ public class MainActivity extends AppCompatActivity {
                 player = 0;
             }
             imageView.animate().translationYBy(1500).setDuration(300);
+            System.out.println("1111111");
         }
+
     }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
